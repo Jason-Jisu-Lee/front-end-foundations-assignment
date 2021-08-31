@@ -47,6 +47,11 @@ main img {
   flex-direction: column;
 }
 
+.align-center {
+  align-items: center;
+  justify-content: center;
+}
+
 .item {
   flex: 1;
   margin: 10px;
@@ -144,6 +149,22 @@ footer p {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-top: 0px;
+    padding-left: 5px;
+    margin-left: 0;
+  }
+
+  .logo {
+    font-size: 45px;
+    padding-bottom: 7px;
+  }
+
+  header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 15px;
+    font-size: 13px;
   }
 
   .join-class {
@@ -156,8 +177,21 @@ footer p {
   .group {
     flex-direction: row;
   }
-
+  
   .margin-around {
     margin: 10px 10px 10px 10px
+  }
+
+  .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  }
+
+  .box {
+    width: 46%;
+    padding-bottom: 0%;
+    padding-left: 2%; 
+    padding-right: 2%
   }
 }
