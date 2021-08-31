@@ -177,10 +177,6 @@ footer p {
   .group {
     flex-direction: row;
   }
-  
-  .margin-around {
-    margin: 10px 10px 10px 10px
-  }
 
   .container {
   display: flex;
